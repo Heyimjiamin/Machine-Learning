@@ -1,9 +1,9 @@
 # Machine-Learning
-This repository contains two types of simple linear regression models and one logistic regression model that I attempted to build using Numpy and PyTorch.
+This repository contains two types of simple linear regression models and one logistic regression model that I attempted to build using Numpy and PyTorch. These models can be found [here](https://github.com/Heyimjiamin/Machine-Learning/tree/main/Regression%20Modeling).
 
 ### Simple Linear Regression Model
 I predicted salary data based on work-experience data using simple linear regression modeling (y = w*x + b). I built two types of simple linear regression models. One is manual calculation, and the other is creating a neural network using PyTorch. The methods used are:
-1. Cost function: Mean Square Error (MSE)
+1. Cost function: Mean Squared Error (MSE)
 2. Optimizer: Gradient Descent
 
 The Coefficient of Determination (R^2) is calculated to check the model's accuracy.
