@@ -11,7 +11,7 @@ The Coefficient of Determination (R^2) is calculated to check the model's accura
 
 ### Multiple Linear Regression Model / Logistic Regression Model
 The aim of the model is to predict people's chances of getting diabetes based on four features (age, weight, blood sugar, and gender). In data preprocessing, I classified genders with label encoding and adjusted the scale of the x data via standardization. 
-The logistic regression model is built using the torch nn module. The methods used are:
+The regression model is built using the torch nn module. The methods used are:
 1. Cost function: Binary Cross Entropy (BCE)
 3. Optimizer: Stochastic Gradient Descent (SGD)
 
